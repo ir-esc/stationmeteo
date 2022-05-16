@@ -128,6 +128,9 @@ private:
 
 public slots:
     void lireIo();
+
+signals:
+    void nouvelleDonneeRecue();
 };
 
 #endif // WMRDEVICE_H

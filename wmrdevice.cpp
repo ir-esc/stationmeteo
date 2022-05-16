@@ -139,6 +139,7 @@ void WMRdevice::analyserTrame()
 
         break;
     }
+    emit nouvelleDonneeRecue();
 }
 
 /*
